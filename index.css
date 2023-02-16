@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.caja-contenedora{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.9);
+}
+.header img{
+    width: 15%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.logo h2{ 
+    color: white;
+    margin: 0 0.5rem ;
+    font-size: 15pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+}
+.botones{
+    color: white;
+    font-size: 15pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background: transparent;
+    margin: 1.5rem; 
+}
+.contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Imagenes/you-3.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.informacion{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+
+}
+.informacion h1{
+    color: white;
+    font-size: 30pt;
+}
+.informacion p{
+    color: white;
+    font-size: 15pt;
+    width: 70%;
+    margin: 2.5rem 0;
+}
+.informacion button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 15pt;
+    height: 4rem;
+    width: 11rem;
+    border-radius: 3px;
+    color: black;
+    background: blanchedalmond;
+}
